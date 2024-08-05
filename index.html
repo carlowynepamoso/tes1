@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h1 class="js-login">SAKURA.COM</h1>
+    <style>
+      .js-login{
+        text-align: center;
+      }
+      .container{
+        width: 400px;        
+        background-color: transparent;
+        border: 2px solid white;
+        backdrop-filter: blur(10px);
+        color:black;
+        text-align: center;
+        border-radius: 400px;
+        margin: 18% auto;
+        
+
+      }
+      body {
+       background-image: url(japan.jpeg);
+      }
+      .js-Enter {
+        width: 100px;
+        border-radius: 100px;
+        background-color: violet;
+      }
+      .js-sign{
+        
+      }
+    </style>
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  </head>
+  <body>
+     <div class="container">
+      <form>
+        <h2>login</h2>
+         
+        <i class='bx bxs-user'></i>
+        <input type="text" name="username" placeholder="username@gmail.com"><br>
+        <i class='bx bxs-lock'></i>
+        <input type="password" name="password" placeholder="password"><br>
+        <input type="checkbox"> Remember ME  <a href="singn.html">Forgot Password</a><br>
+        <button type="submit" class="js-Enter"  onclick="alert(`sorry ${computer}`)">Enter</button><br>
+        
+      </form>
+     </div>
+     <script>
+      const var1 = Math.random();
+      if (var1  >= 0 && var1 < 1/3 ) {
+        computer ='try'
+      }
+      else if(
+        var1 >= 2/3
+      ) 
+      {
+        computer = 'sorry'
+
+      } else if (
+        var1 >=1/3 && var1 <1
+      ) {
+        Computer = 'end'
+      }
+    
+     </script>
+
+
+
+
+
+
+  </body>
+</html>
